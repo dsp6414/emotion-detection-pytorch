@@ -16,9 +16,9 @@ import pickle
 
 
 def convert_fer2013_to_jpg(filepath,
-                           num_rows=1000,
-                           train_test_split=0.8,
-                           out_file_dir):
+                            out_file_dir,
+                            num_rows=1000,
+                            train_test_split=0.8):
     """
 
     :param filepath: path to the input fer2013 csv file
